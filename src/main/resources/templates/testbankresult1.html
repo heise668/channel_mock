@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>TestBank1: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Result</h1>
+     <p>err_code: 
+     <input type="text"  name="err_code" th:value="${err_code}"   readonly/>
+     </p>
+        <p th:text="'结果 ' + 交易成功" />
+</body>
+</html>
